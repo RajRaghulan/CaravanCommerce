@@ -1,2 +1,2 @@
 # CaravanCommerce
-The information website for Caravan
+Website Application for Caravan Commerce

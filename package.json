@@ -1,11 +1,11 @@
 {
-  "name": "CaravanCommerce",
+  "name": "caravancommerce",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2",
+    "firebase-admin": "^9.4.2",
     "react-google-login": "^5.2.2"
   },
   "devDependencies": {},
@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/RajRaghulan/CaravanCommerce/issues"
   },
-  "homepage": "https://github.com/RajRaghulan/CaravanCommerce#readme"
+  "homepage": "https://github.com/RajRaghulan/CaravanCommerce#readme",
+  "description": ""
 }

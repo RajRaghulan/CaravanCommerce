@@ -27,7 +27,7 @@ auth.onAuthStateChanged(user => {
     } else {
         // not signed in
         whenSignedIn.hidden = true;
-        whenSignedOut.hidden = true;
+        whenSignedOut.hidden = false;
         userDetails.innerHTML = '';
     }
 });

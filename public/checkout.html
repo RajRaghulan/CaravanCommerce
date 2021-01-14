@@ -2,6 +2,32 @@
 
 <html>
 	<head>
+		   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel='icon' href='images/favicon.png' type="">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Belleza|Marcellus+SC&display=swap');
+    </style>
 		<title>Caravan Commerce</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,18 +69,203 @@
 							<header class="align-center">
 								<h2>
 									<p>
+										<section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 ftco-animate">
+                    <form action="#" class="billing-form">
+                        <h3 class="mb-4 billing-heading">Billing Details <br><br></h3>
+                        <div class="row align-items-end">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label style="color:gray" for="firstname">First Name</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label style="color:gray" for="lastname">Last Name</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label style="color:gray" for="streetaddress">Street Address</label>
+                                    <input type="text" class="form-control" placeholder="House number and street name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Appartment, suite, unit etc: (optional)">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <!--City location form, containing all cities in the Silicon Valley Bay Area-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label style="color:gray" for="country">City</label>
+                                    <div class="select-wrap">
+                                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                        <select name="" id="" class="form-control">
+                                            <option value="">Atherton</option>
+                                            <option value="">Belmont</option>
+                                            <option value="">Campbell</option>
+                                            <option value="">Cupertino</option>
+                                            <option value="">East Palo Alto</option>
+                                            <option value="">Fremont</option>
+                                            <option value="">Foster City</option>
+                                            <option value="">Hayward</option>
+                                            <option value="">Los Altos</option>
+                                            <option value="">Los Altos Hills</option>
+                                            <option value="">Los Gatos</option>
+                                            <option value="">Milpitas</option>
+                                            <option value="">Menlo Park</option>
+                                            <option value="">Monte Sereno</option>
+                                            <option value="">Morgan Hill</option>
+                                            <option value="">Mountain View</option>
+                                            <option value="">Newark</option>
+                                            <option value="">Redwood City</option>
+                                            <option value="">Redwood Shores</option>
+                                            <option value="">Saratoga</option>
+                                            <option value="">San Carlos</option>
+                                            <option value="">San Jose</option>
+                                            <option value="">San Mateo</option>
+                                            <option value="">Santa Clara</option>
+                                            <option value="">Sunnyvale</option>
+                                            <option value="">Union City</option>
+                                            <option value="">Woodside</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label style="color:gray" for="postcodezip">Postcode / ZIP *</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label style="color:gray" for="phone">Phone</label>
+                                    <input type="text" class="form-control" placeholder="XXXXXXXXXX">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label style="color:gray" for="emailaddress">Email Address</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <br>
+                            <!--Multiple checkout options and gift bonus offer flexibility for customer-->
+                            <div class="col-md-6">
+                                <div class="cart-detail bg-light p-3 p-md-4">
+                                    <h3 class="billing-heading mb-4">Checkout Options</h3>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                            <div class="radio">
+                                                <label style="color:gray"><input type="radio" id="notFree" name="price"
+                                                        value="price" onclick="addPremium()"> &ensp; [$3.99] Premium
+                                                    Delivery (1 Business Day)</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                            <div class="radio">
+                                                <label class="mr-3" style="color:gray"><input type="radio" id="free"
+                                                        name="price" value="price" onclick="subtractPremium()">&ensp;
+                                                    [Free] Standard delivery (3-5 Business Days)</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                            <div class="radio">
+                                                <label style="color:gray"><input type="radio" id="alsoFree" name="price"
+                                                        value="price" onclick="subtractPremium()">&ensp; [Free] Personal
+                                                    Pickup <br>(21370 Homestead Rd, Cupertino, CA 95014)</label>
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <!-- END -->
+
+
+
+                    <div class="row mt-5 pt-3 d-flex">
+                        <div class="col-md-6 d-flex">
+                            <div class="cart-detail cart-total bg-light p-3 p-md-4">
+                                <!--Cart total, displaying summation of all prices in shopping cart-->
+                                <h3>
+                                    Cart Total
+                                </h3>
+                                <p class="d-flex">
+                                    <span>Subtotal</span> $
+                                    <span id="Total"></span>
+                                </p>
+                                <p class="d-flex">
+                                    <span>Sales Tax</span> $
+                                    <span id="tax"></span>
+                                </p>
+                                <p class="d-flex">
+                                    <span>Delivery</span> $
+                                    <span id="delivery"></span>
+                                </p>
+
+                                <hr />
+                                <p class="d-flex total-price">
+                                    <span>Total</span>
+                                    <span>$<t id="GrandTotal"></t></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!--Multiple payment methods offered to provide flexibility and convenience-->
+                        <div class="col-md-6">
+                            <div class="cart-detail bg-light p-3 p-md-4">
+                                <h3 class="billing-heading mb-4">Payment Method</h3>
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio" class="mr-2"> Direct Bank
+                                                Tranfer</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio" class="mr-2"> Check
+                                                Payment</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio" class="mr-2"> Paypal</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><a style="color:black; font-size:15px" class="btn btn-primary py-3 px-4" onclick="add()">Place order</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-8 -->
+            </div>
+        </div>
+    </section>
 									</p>
-									<p><section id="whenSignedOut" hidden = "false">
-										<a class="btn btn-outline-dark" role="button" id="signInBtn" style="text-transform:none">
-											<img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
-										</a>
-										</section>
-										<setion id="whenSignedIn" hidden="true">
-
-											<div id="userDetails"></div>
-											<button id="signOutBtn" class="btn btn-primary">Sign Out</button>
-										</setion></p>
+									
 								</h2>
 							</header>
 						</div>

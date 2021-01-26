@@ -19,7 +19,7 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "/create",
+      "source": "/",
       "function": "app"
     }]
   },

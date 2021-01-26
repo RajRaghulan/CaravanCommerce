@@ -10,7 +10,7 @@ app.set('view engine', 'hbs');
 
 // Rendor the main Page
 app.get('/', (request, response) => {
-    response.render('main', {});
+    response.render('index', {});
 });
 
 // Rendor the User Login Page
@@ -19,7 +19,7 @@ app.get('/loginUser', (request, response) => {
 });
 
 // Rendor the Business Login Page
-app.get('/businessUser', (request, response) => {
+app.get('/loginBusinessUser', (request, response) => {
     response.render('businesslogin', {});
 });
 

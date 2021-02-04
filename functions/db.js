@@ -1,3 +1,12 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable eol-last */
+/* eslint-disable linebreak-style */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-var */
+/* eslint-disable linebreak-style */
+/* eslint-disable indent */
+/* eslint-disable no-undef */
+/* eslint-disable comma-dangle */
 const firebase = require("firebase-admin");
 
 // Get a reference to the database service

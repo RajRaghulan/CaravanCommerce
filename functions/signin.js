@@ -1,3 +1,13 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable eol-last */
+/* eslint-disable linebreak-style */
+/* eslint-disable spaced-comment */
+/* eslint-disable arrow-parens */
+/* eslint-disable max-len */
+/* eslint-disable indent */
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
+/* eslint-disable no-undef */
 
 const auth = firebase.auth();
 

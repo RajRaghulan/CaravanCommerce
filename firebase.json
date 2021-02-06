@@ -18,11 +18,7 @@
         "firebase.json",
         "**/.*",
         "**/node_modules/**"
-      ],
-      "rewrites": [{
-        "source": "/",
-        "function": "app"
-      }]
+      ]
     },
     {
       "target" : "userlogin",
@@ -31,11 +27,7 @@
         "firebase.json",
         "**/.*",  
         "**/node_modules/**"
-      ],
-      "rewrites": [{
-        "source": "./userlogin",
-        "function": "app"
-      }]
+      ]
     },
     {
       "target" : "checkout",
@@ -44,11 +36,7 @@
         "firebase.json",
         "**/.*",  
         "**/node_modules/**"
-      ],
-      "rewrites": [{
-        "source": "/checkout",
-        "function": "app"
-      }]
+      ]
     }
 
   ],

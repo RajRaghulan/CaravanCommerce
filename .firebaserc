@@ -1,14 +1,5 @@
 {
   "projects": {
     "default": "caravan-commerce"
-  },
-  "targets": {
-    "caravan-commerce": {
-      "hosting": {
-        "userlogin": [
-          "caravan-userlogin.web.app"
-        ]
-      }
-    }
   }
 }

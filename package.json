@@ -1,27 +1,14 @@
 {
-  "name": "caravancommerce",
-  "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2",
-    "firebase-admin": "^9.4.2",
-    "react-google-login": "^5.2.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RajRaghulan/CaravanCommerce.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RajRaghulan/CaravanCommerce/issues"
-  },
-  "homepage": "https://github.com/RajRaghulan/CaravanCommerce#readme",
-  "description": ""
+    "name": "caravanshop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "userlogin.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "firebase": "^8.2.6"
+    }
 }

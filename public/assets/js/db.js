@@ -1,5 +1,7 @@
+// import firebase from "../../../node_modules/@firebase/app";
+// import "../../../firebase/firestore";
 const firebase = require("firebase/app");
-require("firebase/firestore");
+require ("firebase/firestore");
 
 var firebaseConfig = {
     apiKey: "AIzaSyDss7Fwh_9AEW-C-H4yoaEZ3VDOloFLxZ8",
@@ -18,6 +20,7 @@ const db = firebase.firestore();
 
 // Get All Products
 function getProductList() {
+    console.log("test");
     // Get All products Collection for BeyondActive
     db.collection("Stores").doc("BeyondActive").collection("products").onSnapshot((snapshot) => {
         snapshot.docs.forEach(doc => {
@@ -30,6 +33,9 @@ function getProductList() {
 function renderProducts(doc) {
     console.log(doc);
     const data = doc.data;
-    return data;
+    var productTitle = document.getElementById("product1");
+    productTitle.innerHTML = data.Title;
 }
+ 
+console.log(doc.data);
 

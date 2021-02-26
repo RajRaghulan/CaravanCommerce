@@ -1,16 +1,22 @@
 {
-    "name": "caravanshop",
-    "type" : "module",
-    "version": "1.0.0",
-    "description": "",
-    "main": "userlogin.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "firebase": "^8.2.6",
-        "stripe": "^8.135.0"
-    }
+  "name": "caravancommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajRaghulan/CaravanCommerce.git"
+  },
+  "author": "Raj Raghulan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajRaghulan/CaravanCommerce/issues"
+  },
+  "homepage": "https://github.com/RajRaghulan/CaravanCommerce#readme",
+  "dependencies": {
+    "firebase": "^8.2.9"
+  }
 }

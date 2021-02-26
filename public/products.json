@@ -1,0 +1,588 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Andia Second Skin Leggings",
+        "price": 14.99,
+        "gender": "female",
+        "categ": "Leggings",
+        "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/vckn8039blk41277_800x_09c2416e-8d54-45b8-9e0f-6c9bc4779be2.jpg?v=1600230631" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Tie-Dye Cooler Backpack",
+        "price": 19.99,
+        "gender": "male",
+        "categ": "Backpacks",
+        "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/025-Hero_1296x_706c249b-6c7f-4ed1-b541-6fd0a83b4be2.jpg?v=1607716415" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Adjustable Bra",
+        "price": 11.99,
+        "gender": "male",
+        "categ": "Bra",
+        "image": {
+          "fields": { "file": { "url": "images/men/blazers/black.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "BABY ORGANIZER - EVERLEIGH ONYX",
+        "price": 39.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/85be272efc549d461fb2608b0edbb07c796deeb88028d406da56e5f3e584fcd9.jpg?v=1607808375g" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Ashley Halo Bangle Keychain with Tassel and Snap Pouch",
+        "price": 24.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/75d6d2f5c28690af69aef12733dd9742d28cd0682716a28793b266546752637c.jpg?v=1608854948" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Ace Skirts",
+        "price": 89.99,
+        "gender": "female",
+        "categ": "Skirts",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/AB_openbacktank_1743_1200x_e8ff89fe-3e95-47e6-9842-a1e9a6614533.jpg?v=1609537121" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Airtight Lunch Container With Fork Spoon - White",
+        "price": 28.99,
+        "gender": "male",
+        "categ": "Airtight Lunch Container With Fork Spoon - White",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/6fcfd16e4ee9caf80aef7df7bf25f0762d9aa8c4cf8d30e1da24fc475de6274e_0608b7e6-0d50-4b7b-b3ad-9d0483ffd750.jpg?v=1609626642" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "27 oz Dimpled Golf SIC Stainless Steel Water Bottlet",
+        "price": 24.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/12437fa9896d86221aeffc9169c0b0fae463e2a2c59a23ed53916ead0e641782.jpg?v=1609883848" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "30 oz Dimpled Golf SIC Stainless Steel Tumbler",
+        "price": 29.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/b0633efe1ea67f81086cce56a3df28cc0483370f1eb3e30c6a7ee202f0921d60.jpg?v=1609889352" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "30 oz Neon Leopard SIC Stainless Steel Tumbler",
+        "price": 31.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/ec486b19b126fd78675ef2cb35c2f60073294cfe3d70cc96138b813dfc964d9e.jpg?v=1609883851" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "27 oz Hammered Gunmetal SIC Stainless Steel Water Bottle",
+        "price": 24.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/995f35095bda3362a8e052a8c966b5a39d9c1c3c64aa45967a7746d813b66bbb.jpg?v=1609889359" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "ALWAYS LOVE VALENTINE'S SWEATSHIRT",
+        "price": 36.99,
+        "gender": "male",
+        "categ": "Shirts",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/b73bf46aef9c7b86a67ad5aba108a61d26656dc6aade188ce363d10e7a5e989e.jpg?v=1610128888" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "ALWAYS LOVE VALENTINE'S GRAPHIC TEEs",
+        "price": 26.99,
+        "gender": "female",
+        "categ": "shirt",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/IMG_8318_1024x1024_2x_01631061-1970-4d0e-a407-bb9ff378ee46.jpg?v=1610567144" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Adjustable Bra - Dreamcatcher",
+        "price": 54.99,
+        "gender": "female",
+        "categ": "Bras",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/a0b5d183Handful-2019-S20-Women-Studio-Bra-Adjustable-Dreamcatcher-Front-5878_ac8839c6-8e43-4a5e-b44c-cd18d86fd291.jpg?v=1590779334" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "27 oz Camo",
+        "price": 19.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_454b4ea3-f70f-4cda-9ff0-7b27c626d194.jpg?v=1600230780" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "Grey Joggers",
+        "price":44.99,
+        "gender": "female",
+        "categ": "Pants",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_b0538c79-1891-4129-af6c-d813889aada6.jpg?v=1600230841" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "Axel Slouchy Long Sleeve",
+        "price": 29.99,
+        "gender": "female",
+        "categ": "shirts",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/8177NR_ALMOND_740.jpg?v=1600230910" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "Cuff Crew Puff Shirt",
+        "price": 32.99,
+        "gender": "female",
+        "categ": "shirts",
+        "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/8227HS_WHISPER_553.jpg?v=1600230921" } } }
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "Axis Jacket",
+        "price": 132.99,
+        "gender": "female",
+        "categ": "jackets",
+        "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_1f34282a-7d3c-4fe3-a609-f4b4ae3f3155.jpg?v=1601668120" } } }
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "Andia Empress Teal Leggings",
+        "price": 24.99,
+        "gender": "female",
+        "categ": "Ties",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_63af3211-2c2e-417a-a0b8-dc404d9204e5.jpg?v=1602355874" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "21" },
+      "fields": {
+        "title": "Andia Emerald Snake Leggings",
+        "price": 34.99,
+        "gender": "male",
+        "categ": "Ties",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_fe3ab614-8a56-4605-982f-4e9ac1053a93.jpg?v=1602355877" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "22" },
+      "fields": {
+        "title": "20 oz Skinny Steel Tumbler With Straw - Pink",
+        "price": 12.99,
+        "gender": "male",
+        "categ": "Ties",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/66ef32a2f6727eabdcc4b8e40eb40335cd873f8b14842afc62c5208e1dcfcc39.jpg?v=1602614075" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "23" },
+      "fields": {
+        "title": "26 oz Shaker Bottle - Navy and Mint Ombree",
+        "price": 21.99,
+        "gender": "male",
+        "categ": "Ties",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/32eccfb2923a9d23a5891df1d08c68ba0a7ca4fb7cbd654a96580eec151a065e.jpg?v=1602614077" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "24" },
+      "fields": {
+        "title": "20 oz Skinny Steel Tumbler With Straw - Lilace",
+        "price": 19.99,
+        "gender": "male",
+        "categ": "Ties",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/72492c2ea683bec13ce576c4e2d9c0c57167c5c557a58b4a09764ed1f74a22cc.jpg?v=1602614079" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "27 oz Matte Tuff Black",
+        "price": 19.99,
+        "gender": "male",
+        "categ": "miscellaneous",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/square_black_720x_c2ce3222-0cf0-483c-91ee-8991eaf62a68.jpg?v=1574098762g" } }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "26" },
+      "fields": {
+        "title": "26 oz Bottle - Navy To Mint Ombree",
+        "price": 26.99,
+        "gender": "female",
+        "categ": "Blouses",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/a9c86b071ba0f0d4138f960bc7b884dd51c460bdf2f52e18fcbed35879cb3da4.jpg?v=1602614081" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "27" },
+      "fields": {
+        "title": "26 oz Bottle - Lilac",
+        "price": 26.99,
+        "gender": "female",
+        "categ": "Blouses",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/710ba68b8644ecd86ae02bab21f9bc8e09029c9661087459b0d244f8165f3771.jpg?v=1602614084" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "28" },
+      "fields": {
+        "title": "26 oz Shaker Bottle - Green and Purple",
+        "price": 26.99,
+        "gender": "female",
+        "categ": "Blouses",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/4b49afcc2e7c5a9493eee4333cb1a9cde55a4e0268df479418144850d8dd1941.png?v=1602614089" } }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "29" },
+      "fields": {
+        "title": "26 oz Shaker Bottle - Purple",
+        "price": 25.99,
+        "gender": "female",
+        "categ": "Skirts",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/52c0ce100a44e5ae820f77706bfa2d87529ff65e9ec7976b60ebb5ed6dadd3db.png?v=1602614095" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "30" },
+      "fields": {
+        "title": "26 oz Shaker Bottle - Mintt",
+        "price": 25.99,
+        "gender": "female",
+        "categ": "Skirts",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/8f4edcae01cada2abc0a0811113350ea26f465ca0879c6851f365ad5d4c09afd.png?v=1602614100" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "31" },
+      "fields": {
+        "title": "12 oz Drunk Tumblert",
+        "price": 25.99,
+        "gender": "female",
+        "categ": "Skirts",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/4b0363e462a6f6da47dee9b0b695916146834bb92695685f7f3547c15fefa3ad.jpg?v=1603305308" } }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "32" },
+      "fields": {
+        "title": "Baby Large Zip Pouchs",
+        "price": 15.99,
+        "gender": "female",
+        "categ": "Heels",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/33e459e846ac80028154a8457499e418fdee076092719e4c334cf8b9013911d3.jpg?v=1603305328" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "33" },
+      "fields": {
+        "title": "Axel Thermal - Foxy Pinks",
+        "price": 45.99,
+        "gender": "female",
+        "categ": "Heels",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/StrutThis5f73aafcac7e125f73aafcaca32.228147535f73aafcaca32_2000x_be468b9c-1033-4279-889c-973ebecee59b.jpg?v=1603548165g" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "34" },
+      "fields": {
+        "title": "Antisocial Butterfly - Jump Jumper",
+        "price": 51.99,
+        "gender": "female",
+        "categ": "Heels",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/SWJJP-TDF-3153_RAD_1_900x_1816dfe8-cabf-4ed5-89c1-89a9474215a7.jpg?v=1604428873" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "35" },
+      "fields": {
+        "title": "Armpit Detox",
+        "price": 17.99,
+        "gender": "male",
+        "categ": "Watches",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_a2172ede-438b-4ecf-a1ea-7850c3d48065.jpg?v=1600230634" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "36" },
+      "fields": {
+        "title": "Adjustable Bra - Booya Black",
+        "price": 27.99,
+        "gender": "male",
+        "categ": "Watches",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_c62def1f-f725-4f8c-87d9-8c97d71bb978.jpg?v=1605845453" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "37" },
+      "fields": {
+        "title": "Multi-Color Zebra Leggings - Green",
+        "price": 43.99,
+        "gender": "male",
+        "categ": "Watches",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_c868ffe3-52cc-417e-8560-7863a25edd27.jpg?v=1607011346" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "38" },
+      "fields": {
+        "title": "Multi-Color Zebra Leggings - Purple",
+        "price": 51.99,
+        "gender": "female",
+        "categ": "FemaleBlazers",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_ff63c8a9-cf8f-41c9-94c0-7cdec97a2192.jpg?v=1606506125" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "39" },
+      "fields": {
+        "title": "Spotted Leggings",
+        "price": 51.99,
+        "gender": "female",
+        "categ": "FemaleBlazers",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/AF-SF20-46xCHARCOALBLACKxPrimary_20818690_2000x_1fbfdd6c-b57d-4072-b549-8c45d4c75431.jpg?v=1607200071" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "40" },
+      "fields": {
+        "title": "Dark Pajama Pants",
+        "price": 51.99,
+        "gender": "female",
+        "categ": "FemaleBlazers",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_1f3702ff-3f56-4272-ad38-76935bb03ed2.jpg?v=1607989097" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "41" },
+      "fields": {
+        "title": "Muscle Salve",
+        "price": 17.99,
+        "gender": "female",
+        "categ": "FemaleShirts",
+        "image": {
+          "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/2531/0730/products/image_e4be811d-9d1f-442f-aa3c-8ae0dfe9ee30.jpg?v=1600230633" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "42" },
+      "fields": {
+        "title": "White Shirt",
+        "price": 7.99,
+        "gender": "female",
+        "categ": "FemaleShirts",
+        "image": {
+          "fields": { "file": { "url": "images/women/shirts/white.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "43" },
+      "fields": {
+        "title": "Light Blue Shirt",
+        "price": 7.99,
+        "gender": "female",
+        "categ": "FemaleShirts",
+        "image": {
+          "fields": { "file": { "url": "images/women/shirts/lightblue.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "44" },
+      "fields": {
+        "title": "Black Slacks",
+        "price": 6.99,
+        "gender": "female",
+        "categ": "FemaleSlacks",
+        "image": {
+          "fields": { "file": { "url": "images/women/slacks/black.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "45" },
+      "fields": {
+        "title": "White Slacks",
+        "price": 6.99,
+        "gender": "female",
+        "categ": "FemaleSlacks",
+        "image": {
+          "fields": { "file": { "url": "images/women/slacks/white.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "46" },
+      "fields": {
+        "title": "Gray Slacks",
+        "price": 6.99,
+        "gender": "female",
+        "categ": "FemaleSlacks",
+        "image": {
+          "fields": { "file": { "url": "images/women/slacks/gray.jpg" } }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "47" },
+      "fields": {
+        "title": "Black Leather Flats",
+        "price": 4.99,
+        "gender": "female",
+        "categ": "Flats",
+        "image": {
+          "fields": { "file": { "url": "images/women/flats/black.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "48" },
+      "fields": {
+        "title": "Brown Leather Flats",
+        "price": 4.99,
+        "gender": "female",
+        "categ": "Flats",
+        "image": {
+          "fields": { "file": { "url": "images/women/flats/brown.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "49" },
+      "fields": {
+        "title": "Tan Leather Flats",
+        "price": 4.99,
+        "gender": "female",
+        "categ": "Flats",
+        "image": {
+          "fields": { "file": { "url": "images/women/flats/tan.jpg" } }
+        }
+      }
+    }
+  ]
+}

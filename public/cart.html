@@ -1,590 +1,1080 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Basic -->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Caravan Commerce</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--All initial stylistic elements initialized; fonts, favicon, css themes-->
+  <link rel="icon" href="images/favicon.png" type="" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/ionicons.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+  <link rel="stylesheet" href="css/jquery.timepicker.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/icomoon.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Site Metas -->
-    <title>ThewayShop - Ecommerce Bootstrap 4 HTML Template</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Belleza|Marcellus+SC&display=swap');
+  </style>
 </head>
 
-<body>
+<!--Header with phone number, email, and delivery days to provide easy access for user-->
 
-    <!-- Start Main Top -->
-    <div class="main-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="text-slid-box">
-                        <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+<body class="goto-here">
+  <div class="py-1 bg-turquoise">
+    <div class="container">
+      <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+        <div class="col-lg-12 d-block">
+          <div class="row d-flex">
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon mr-2 d-flex justify-content-center align-items-center">
+                <span class="icon-phone2"></span>
+              </div>
+              <span class="text">+1 (800) 007-8990</span>
+            </div>
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon mr-2 d-flex justify-content-center align-items-center">
+                <span class="icon-paper-plane"></span>
+              </div>
+              <span class="text">caravancommerce@gmail.com</span>
+            </div>
+            <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+              <span class="text">3-5 Business days delivery &amp; Free Returns</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Navigation bar, initially shaded dark to provide necessary contrast, later turns to white as user scrolls-->
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" style="font-family:'Marcellus SC';letter-spacing:1px;">Caravan Commerce</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="shop.html" class="nav-link">Rentals</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><i class="fa fa-shopping-cart"
+                style="font-size:12px;color:white"></i>[ <t id="picked"></t> ]</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <!--Table for properly displaying each selected item and its attributes, in a clean and easy to navigate way-->
+  <div class="hero-wrapother hero-bread" style="background-image: url('images/bg_5.png');">
+    <div class="container">
+      <div class="row no-gutters slider-text align-items-center justify-content-center">
+        <div class="col-md-9 ftco-animate text-center">
+          <h1 class="mb-0 bread">
+            Cart
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="ftco-section ftco-cart">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ftco-animate">
+          <div class="cart-list">
+            <table class="table">
+              <thead class="thead-primary">
+                <tr class="text-center">
+                  <th>
+                    Remove?
+                  </th>
+                  <th>
+                    Image
+                  </th>
+                  <th>
+                    Product
+                  </th>
+                  <th>
+                    Size
+                  </th>
+                  <th>
+                    Price
+                  </th>
+                  <th>
+                    Days
+                  </th>
+                  <th>
+                    Total
+                  </th>
+                </tr>
+              </thead>
+              <!-- start tr -->
+              <tr class="text-center" id="one">
+                <td class="product-remove" id="0" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img0"></img>
+                </td>
+
+                <td class="product-name">
+                  <h3 id="title0"></h3>
+                </td>
+
+                <td>
+                  <select id="size0" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price0"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="0" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total0"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- END TR-->
+              <!-- start tr -->
+              <tr class="text-center" id="two">
+                <td class="product-remove" id="1" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img1"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title1"></h3>
+                </td>
+                <td>
+                  <select id="size1" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price1"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="1" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total1"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- END TR-->
+              <!-- start tr -->
+              <tr class="text-center" id="three">
+                <td class="product-remove" id="2" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img2"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title2"></h3>
+                </td>
+                <td>
+                  <select id="size2" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price2"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="2" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total2"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- END TR-->
+              <!-- start tr -->
+              <tr class="text-center" id="four">
+                <td class="product-remove" id="3" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img3"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title3"></h3>
+                </td>
+                <td>
+                  <select id="size3" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price3"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="3" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total3"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- END TR-->
+              <!-- start tr -->
+              <tr class="text-center" id="five">
+                <td class="product-remove" id="4" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img4"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title4"></h3>
+                </td>
+                <td>
+                  <select id="size4" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price4"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="4" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total4"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="six">
+                <td class="product-remove" id="5" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img5"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title5"></h3>
+                </td>
+                <td>
+                  <select id="size5" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price5"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="5" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total5"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="seven">
+                <td class="product-remove" id="6" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img6"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title6"></h3>
+                </td>
+                <td>
+                  <select id="size6" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price6"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="6" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total6"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="eight">
+                <td class="product-remove" id="7" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img7"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title7"></h3>
+                </td>
+                <td>
+                  <select id="size7" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price7"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="7" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total7"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="nine">
+                <td class="product-remove" id="8" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img8"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title8"></h3>
+                </td>
+                <td>
+                  <select id="size8" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price8"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="8" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total8"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="ten">
+                <td class="product-remove" id="9" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img9"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title9"></h3>
+                </td>
+                <td>
+                  <select id="size9" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price9"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="9" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total9"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="eleven">
+                <td class="product-remove" id="10" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img10"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title10"></h3>
+                </td>
+                <td>
+                  <select id="size10" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price10"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="10" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total10"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="twelve">
+                <td class="product-remove" id="11" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img11"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title11"></h3>
+                </td>
+                <td>
+                  <select id="size11" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price11"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="11" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total11"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="thirteen">
+                <td class="product-remove" id="12" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img12"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title12"></h3>
+                </td>
+                <td>
+                  <select id="size12" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price12"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="12" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total12"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="fourteen">
+                <td class="product-remove" id="13" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img13"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title13"></h3>
+                </td>
+                <td>
+                  <select id="size13" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price13"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="13" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total13"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="fifteen">
+                <td class="product-remove" id="14" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img14"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title14"></h3>
+                </td>
+                <td>
+                  <select id="size14" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price14"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="14" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total14"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="sixteen">
+                <td class="product-remove" id="15" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img15"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title15"></h3>
+                </td>
+                <td>
+                  <select id="size15" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price15"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="15" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total15"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="seventeen">
+                <td class="product-remove" id="16" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img16"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title16"></h3>
+                </td>
+                <td>
+                  <select id="size16" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price16"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="16" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total16"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="eighteen">
+                <td class="product-remove" id="17" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img17"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title17"></h3>
+                </td>
+                <td>
+                  <select id="size17" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price17"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="17" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total17"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="nineteen">
+                <td class="product-remove" id="18" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img18"></img>
+                </td>
+                <td class="product-name">
+                  <h3 id="title18"></h3>
+                </td>
+                <td>
+                  <select id="size18" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price18"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="18" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total18"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="text-center" id="twenty">
+                <td class="product-remove" id="19" onclick="call(id);parentNode.remove() ">
+                  <a href="#"><span class="ion-ios-close"></span></a>
+                </td>
+
+                <td class="image-prod">
+                  <img class="img-fluid frame" id="img19"></img>
+                </td>
+
+                <td class="product-name">
+                  <h3 id="title19"></h3>
+                </td>
+                <td>
+                  <select id="size19" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="X-Large">X-Large</option>
+                  </select>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="price19"></t>
+                    </p>
+                  </div>
+                </td>
+                <td class="quantity">
+                  <div class="input-group mb-3" id="19" onmouseover="update(id)">
+                    <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1"
+                      max="100" />
+                  </div>
+                </td>
+                <td>
+                  <div class="pricing">
+                    <p class="price">
+                      $<t id="total19"></t>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+
+
+              <!-- END TR-->
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!--Cart total: summation of all products in cart-->
+      <div class="row justify-content-start">
+        <div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate">
+          <div class="cart-total mb-3">
+            <h3>
+              Cart Total
+            </h3>
+            <p class="d-flex">
+              <span>Subtotal</span>
+              $<span id="Total"></span>
+            </p>
+            <p class="d-flex">
+              <span>Sales Tax</span>
+              $<span id="tax"></span>
+            </p>
+
+            <hr />
+            <p class="d-flex total-price">
+              <span>Total</span>
+              <span>$<t id="GrandTotal"></t></span>
+            </p>
+          </div>
+          <p class="text-center">
+            <a style="color:black; font-size:15px" href="checkout.html" class="btn btn-primary py-3 px-4">Proceed to
+              Checkout</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Website footer with all appropriate information-->
+  <footer class="ftco-footer ftco-section ">
+    <div class="container ">
+        <div class="row ">
+            <div class="mouse ">
+                <a href="# " class="mouse-icon ">
+                    <div class="mouse-wheel "><span class="ion-ios-arrow-up "></span></div>
+                </a>
+            </div>
+        </div>
+        <!--Name and all social media links-->
+        <div class="row mb-5 ">
+            <div class="col-md ">
+                <div class="ftco-footer-widget mb-4 ">
+                    <h2 class="ftco-heading-2 ">Caravan Commerce</h2>
+                    <p>Dress for Success.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5 ">
+                        <li class="ftco-animate "><a href="https://www.facebook.com/homestead8990/ "><span
+                                    class="icon-facebook "></span></a></li>
+                        <li class="ftco-animate "><a href="https://www.instagram.com/homesteadfbla/?hl=en "><span
+                                    class="icon-instagram "></span></a></li>
+                        <li class="ftco-animate "><a href="https://twitter.com/homesteadfbla "><span
+                                    class="icon-twitter "></span></a></li>
+                    </ul>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="custom-select-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-						<option>¥ JPY</option>
-						<option>$ USD</option>
-						<option>€ EUR</option>
-					</select>
-                    </div>
-                    <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
-                    </div>
-                    <div class="our-link">
+            </div>
+            <!--Important pages-->
+            <div class="col-md ">
+                <div class="ftco-footer-widget mb-4 ml-md-5 ">
+                    <h2 class="ftco-heading-2 ">Menu</h2>
+                    <ul class="list-unstyled ">
+                        <li><a href="shop.html " class="py-2 d-block ">Store</a></li>
+                        <li><a href="about.html " class="py-2 d-block ">About</a></li>
+                        <li><a href="contact.html " class="py-2 d-block ">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--Sources of contact-->
+            <div class="col-md ">
+                <div class="ftco-footer-widget mb-4 ">
+                    <h2 class="ftco-heading-2 ">Have a Question?</h2>
+                    <div class="block-23 mb-3 ">
                         <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Our location</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><span class="icon icon-map-marker "></span><span class="text ">21370 Homestead Rd,
+                                    Cupertino, CA 95014<br /></span></li>
+                            <li><a href="tel:// "><span class="icon icon-phone "></span><span class="text ">+1 800
+                                        007 8990</span></a></li>
+                            <li><a href="mailto:vptechnology@hhsfbla.com "><span
+                                        class="icon icon-envelope "></span><span
+                                        class="text ">caravancommerce@gmail.com</span></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End Main Top -->
+        <div class="row ">
+            <div class="col-md-12 text-center ">
 
-    <!-- Start Main Top -->
-    <header class="main-header">
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
-            <div class="container">
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="dropdown megamenu-fw">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
-                            <ul class="dropdown-menu megamenu-content" role="menu">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Top</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Jackets</a></li>
-                                                    <li><a href="shop.html">Shirts</a></li>
-                                                    <li><a href="shop.html">Sweaters & Cardigans</a></li>
-                                                    <li><a href="shop.html">T-shirts</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Bottom</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Swimwear</a></li>
-                                                    <li><a href="shop.html">Skirts</a></li>
-                                                    <li><a href="shop.html">Jeans</a></li>
-                                                    <li><a href="shop.html">Trousers</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Clothing</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Top Wear</a></li>
-                                                    <li><a href="shop.html">Party wear</a></li>
-                                                    <li><a href="shop.html">Bottom Wear</a></li>
-                                                    <li><a href="shop.html">Indian Wear</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Accessories</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Bags</a></li>
-                                                    <li><a href="shop.html">Sunglasses</a></li>
-                                                    <li><a href="shop.html">Fragrances</a></li>
-                                                    <li><a href="shop.html">Wallets</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                    </div>
-                                    <!-- end row -->
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="shop-detail.html">Shop Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="service.html">Our Service</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
-                    <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu"><a href="#">
-						<i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
-					</a></li>
-                    </ul>
-                </div>
-                <!-- End Atribute Navigation -->
-            </div>
-            <!-- Start Side Menu -->
-            <div class="side">
-                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                <li class="cart-box">
-                    <ul class="cart-list">
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Delica omtantur </a></h6>
-                            <p>1x - <span class="price">$80.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Omnes ocurreret</a></h6>
-                            <p>1x - <span class="price">$60.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Agam facilisis</a></h6>
-                            <p>1x - <span class="price">$40.00</span></p>
-                        </li>
-                        <li class="total">
-                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                            <span class="float-right"><strong>Total</strong>: $180.00</span>
-                        </li>
-                    </ul>
-                </li>
-            </div>
-            <!-- End Side Menu -->
-        </nav>
-        <!-- End Navigation -->
-    </header>
-    <!-- End Main Top -->
-
-    <!-- Start Top Search -->
-    <div class="top-search">
-        <div class="container">
-            <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                <input type="text" class="form-control" placeholder="Search">
-                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                <p>
+                    <!--little bit of love <3-->
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> Raj Raghulan<br />Made with ❤️❤️ && ☕☕ in Cupertino, CA.
+                    </a>
+                </p>
             </div>
         </div>
     </div>
-    <!-- End Top Search -->
-
-    <!-- Start All Title Box -->
-    <div class="all-title-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Cart</h2>
-                    <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                        <li class="breadcrumb-item active">Cart</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End All Title Box -->
-
-    <!-- Start Cart  -->
-    <div class="cart-box-main">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="table-main table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Images</th>
-                                    <th>Product Name</th>
-                                    <th>Price</th>
-                                    <th>Quantity</th>
-                                    <th>Total</th>
-                                    <th>Remove</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="thumbnail-img">
-                                        <a href="#">
-									<img class="img-fluid" src="images/img-pro-01.jpg" alt="" />
-								</a>
-                                    </td>
-                                    <td class="name-pr">
-                                        <a href="#">
-									Lorem ipsum dolor sit amet
-								</a>
-                                    </td>
-                                    <td class="price-pr">
-                                        <p>$ 80.0</p>
-                                    </td>
-                                    <td class="quantity-box"><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
-                                    <td class="total-pr">
-                                        <p>$ 80.0</p>
-                                    </td>
-                                    <td class="remove-pr">
-                                        <a href="#">
-									<i class="fas fa-times"></i>
-								</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="thumbnail-img">
-                                        <a href="#">
-									<img class="img-fluid" src="images/img-pro-02.jpg" alt="" />
-								</a>
-                                    </td>
-                                    <td class="name-pr">
-                                        <a href="#">
-									Lorem ipsum dolor sit amet
-								</a>
-                                    </td>
-                                    <td class="price-pr">
-                                        <p>$ 60.0</p>
-                                    </td>
-                                    <td class="quantity-box"><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
-                                    <td class="total-pr">
-                                        <p>$ 80.0</p>
-                                    </td>
-                                    <td class="remove-pr">
-                                        <a href="#">
-									<i class="fas fa-times"></i>
-								</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="thumbnail-img">
-                                        <a href="#">
-									<img class="img-fluid" src="images/img-pro-03.jpg" alt="" />
-								</a>
-                                    </td>
-                                    <td class="name-pr">
-                                        <a href="#">
-									Lorem ipsum dolor sit amet
-								</a>
-                                    </td>
-                                    <td class="price-pr">
-                                        <p>$ 30.0</p>
-                                    </td>
-                                    <td class="quantity-box"><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
-                                    <td class="total-pr">
-                                        <p>$ 80.0</p>
-                                    </td>
-                                    <td class="remove-pr">
-                                        <a href="#">
-									<i class="fas fa-times"></i>
-								</a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row my-5">
-                <div class="col-lg-6 col-sm-6">
-                    <div class="coupon-box">
-                        <div class="input-group input-group-sm">
-                            <input class="form-control" placeholder="Enter your coupon code" aria-label="Coupon code" type="text">
-                            <div class="input-group-append">
-                                <button class="btn btn-theme" type="button">Apply Coupon</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <div class="update-box">
-                        <input value="Update Cart" type="submit">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row my-5">
-                <div class="col-lg-8 col-sm-12"></div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="order-box">
-                        <h3>Order summary</h3>
-                        <div class="d-flex">
-                            <h4>Sub Total</h4>
-                            <div class="ml-auto font-weight-bold"> $ 130 </div>
-                        </div>
-                        <div class="d-flex">
-                            <h4>Discount</h4>
-                            <div class="ml-auto font-weight-bold"> $ 40 </div>
-                        </div>
-                        <hr class="my-1">
-                        <div class="d-flex">
-                            <h4>Coupon Discount</h4>
-                            <div class="ml-auto font-weight-bold"> $ 10 </div>
-                        </div>
-                        <div class="d-flex">
-                            <h4>Tax</h4>
-                            <div class="ml-auto font-weight-bold"> $ 2 </div>
-                        </div>
-                        <div class="d-flex">
-                            <h4>Shipping Cost</h4>
-                            <div class="ml-auto font-weight-bold"> Free </div>
-                        </div>
-                        <hr>
-                        <div class="d-flex gr-total">
-                            <h5>Grand Total</h5>
-                            <div class="ml-auto h5"> $ 388 </div>
-                        </div>
-                        <hr> </div>
-                </div>
-                <div class="col-12 d-flex shopping-box"><a href="checkout.html" class="ml-auto btn hvr-hover">Checkout</a> </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- End Cart -->
-
-    <!-- Start Instagram Feed  -->
-    <div class="instagram-box">
-        <div class="main-instagram owl-carousel owl-theme">
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-01.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-02.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-03.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-04.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-06.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-07.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-08.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-09.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Instagram Feed  -->
+</footer>
 
 
-    <!-- Start Footer  -->
-    <footer>
-        <div class="footer-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-widget">
-                            <h4>About ThewayShop</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link">
-                            <h4>Information</h4>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Our Sitemap</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link-contact">
-                            <h4>Contact Us</h4>
-                            <ul>
-                                <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer  -->
+  <!-- loader, to provide a smooth transition between pages if the user has a slow internet connection -->
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg>
+  </div>
 
-    <!-- Start copyright  -->
-    <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
-            <a href="https://html.design/">html design</a></p>
-    </div>
-    <!-- End copyright  -->
-
-    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
-
-    <!-- ALL JS FILES -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/inewsticker.js"></script>
-    <script src="js/bootsnav.js."></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/baguetteBox.min.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
+  <!--All javascript file declarations and references-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
 </body>
 
 </html>

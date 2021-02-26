@@ -1,698 +1,704 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Basic -->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Site Metas -->
     <title>Caravan Commerce</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!--All themes and initiating starting sequences-->
+    <link rel='icon' href='images/favicon.png' type="">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Belleza|Marcellus+SC&display=swap');
+    </style>
 </head>
 
-<body>
+<!--Header which contains (dummy) phone number, email, and dates of delivery; turqoise to fit with theme -->
+<!-- -->
 
-    <!-- Start Main Top -->
-    <div class="main-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="text-slid-box">
-                        <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                            </ul>
+<body class="goto-here">
+    <div class="py-1 bg-turquoise">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+                <div class="col-lg-12 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                            <span class="text">+1 (408) 833 3466</span>
+                        </div>
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                            <span class="text">caravancommerce@gmail.com</span>
+                        </div>
+                        <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+                            <span class="text">3-5 Business days delivery &amp; Free Returns</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="custom-select-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-						<option>¥ JPY</option>
-						<option>$ USD</option>
-						<option>€ EUR</option>
-					</select>
+            </div>
+        </div>
+    </div>
+
+    <!--Menu bar with all menu options and dropdowns; initially transparent then later white when scrolling to match up with color scheme-->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="font-family:'Marcellus SC';letter-spacing:1px;">Caravan Commerce</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="shop.html" class="nav-link">Store</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item cta cta-colored"><a onclick ="signIn()" class="nav-link"><i class="fa fa-user" id = "userIcon"></i></a></li>
+    
+                    <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><i class="fa fa-shopping-cart" id= "cartIcon"></i>[ <t id="picked"></t>]</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+
+    <!--Home page first slide with company name, motto, about button, and description; spacing looks bold and spacing is even-->
+    <section id="home-section" class="hero">
+        <div class="home-slider owl-carousel">
+            <div class="slider-item js-fullheight">
+                <div class="overlay"></div>
+                <div class="container-fluid p-0">
+                    <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+                        <img class="one-third order-md-last img-fluid2" src="images/man.png" alt="Image">
+                        <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text">
+                                <div class="horizontal">
+                                    <h1 class="mb-4 mt-3" style="font-family:'Marcellus SC';font-size:78px;color:white;font-weight:400">Caravan </h1>
+
+                                    <h2 class="mb-4" style="font-size:25px;color:white"><strong>Dress for Success.<br>
+                                            <p class="half-line">&nbsp;</p>
+                                        </strong></h2>
+                                    <p><a href="about.html" class="btn btn-primary py-3 px-4" style="font-size:14px;">About Us</a></p>
+
+                                    <p class="mb-4" style="font-size:18px;color:white"><br>Silicon Valley's Premium Local Online Marketplace</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
+                </div>
+            </div>
+            <!--Home page second slide with new arrival of spring collection; places focus on shopping once you open the website-->
+            <div class="slider-item js-fullheight">
+                <div class="overlay"></div>
+                <div class="container-fluid p-0">
+                    <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+                        <img class="one-third order-md-last img-fluid2" src="images/woman.png" alt="Image">
+                        <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text">
+
+                                <div class="horizontal">
+                                    <span class="subheading" style="background-color: #47a8ed;"><strong>#New
+                                            Arrivals</strong></span>
+                                    <br> <br>
+                                    <h1 class="mb-4 mt-3" style="font-size:50px;color:white">New Spring Collections</h1>
+
+                                    <p class="mb-4" style="font-size:17px;color:white"> Spring has sprung! Shop to start the season off well!
+                                        <p class="half-line">&nbsp;</p>
+                                    </p>
+                                    <p><a href="shop.html" class="btn btn-primary py-3 px-4" style="font-size:16px;">Rent Now</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="our-link">
-                        <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Our location</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--3 main goals and descriptors with icons; paints the company in a positive light in front of customers-->
+    <section class="ftco-section ftco-no-pt ftco-no-pb" style="background: white;">
+        <div class="container">
+            <div class="row no-gutters ftco-services">
+                <div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services p-4 py-md-5">
+                        <div class="icon d-flex justify-content-center align-items-center mb-4">
+                            <span class="flaticon-bag"></span>
+                        </div>
+                        <!--Free shipping lowers the prices and attracts customers-->
+                        <div class="media-body">
+                            <h3 class="heading">Free Delivery</h3>
+                            <p>We don't believe in charging exorbitant rates for today's necessities, so the prices you see below the products are the prices you pay, no more than that.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Mission statement is warm-hearted and inspiring-->
+                <div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services p-4 py-md-5">
+                        <div class="icon d-flex justify-content-center align-items-center mb-4">
+                            <span class="flaticon-heart-box"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading">Mission</h3>
+                            <p><strong>Caravan Commerce</strong> is a pillar of our<strong> Community.</strong> We are looking to bring change during this trying time and to help businesses through the pandemic..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services p-4 py-md-5">
+                        <div class="icon d-flex justify-content-center align-items-center mb-4">
+                            <span class="flaticon-customer-service"></span>
+                        </div>
+                        <!--Customer support allows for ease and convenience-->
+                        <div class="media-body">
+                            <h3 class="heading">Supporting Customers</h3>
+                            <p>To keep things as straightforward as possible, we offer customer support 18 hours a day [5am - 11pm PST], so feel free to call us up if you have any questions!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New Arrivals section already placing attention on the shopping experience, to increase sales by catching more eyes-->
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-3 pb-3">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <h2 class="mb-4" style="font-family:'Belleza';font-size:60px;color:black;letter-spacing:1px;">
+                        <a id="next"></a>New Arrivals</a>
+                    </h2>
+
+                    <p style="font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;font-size:17px;color:black">
+                        Some of our newest clothing, handpicked off the shelves of premium manufacturers.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopblouses.html" class="img-prod">
+                            <img class="img-fluid" id="img26">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Blouse</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star-half"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title26"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price26"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopshirts.html" class="img-prod">
+                            <img class="img-fluid" id="img9">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Shirt</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star-half"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title9"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price9"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopfemaleshirts.html" class="img-prod">
+                            <img class="img-fluid" id="img41">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Shirt</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star-half"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title41"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price41"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopblazers.html" class="img-prod">
+                            <img class="img-fluid" id="img3">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Blazer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title3"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price3"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopties.html" class="img-prod">
+                            <img class="img-fluid" id="img21">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Tie</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star-half"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title21"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price21"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopheels.html" class="img-prod">
+                            <img class="img-fluid" id="img31">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Heels</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star-half"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title31"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price31"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopaccessories.html" class="img-prod">
+                            <img class="img-fluid" id="img5">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Accessory</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title5"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price5"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="shopwatches.html" class="img-prod">
+                            <img class="img-fluid" id="img36">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Watch</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star"></span></a>
+                                        <a><span class="ion-ios-star-half"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">
+                                    <p id="title36"></p>
+                                </a>
+                            </h3>
+                            <div class="pricing">
+                                <p class="price">
+                                    $
+                                    <t id="price36"></t>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--4 Types of selections; highlighted selections helps us put emphasis on certain items/categories-->
+   
+    <!--More positive information, to sway customers into buying our services-->
+    <section class="ftco-section testimony-section ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-5 ">
+                    <div class="services-flow ">
+                        <div class="services-2 p-4 d-flex ftco-animate ">
+                            <div class="icon ">
+                                <span class="flaticon-bag "></span>
+                            </div>
+                            <div class="text ">
+                                <h3>Genuine Quality</h3>
+                                <p class="mb-0 ">We purchase our apparel from known and quality brands, and always refurbish any items if needed.</p>
+                            </div>
+                        </div>
+                        <div class="services-2 p-4 d-flex ftco-animate ">
+                            <div class="icon ">
+                                <span class="flaticon-heart-box "></span>
+                            </div>
+                            <div class="text ">
+                                <h3>Good Morales</h3>
+                                <p class="mb-0 ">Our goal is to empower the future of today's society in their endeavors, and we passionately support this cause.</p>
+                            </div>
+                        </div>
+                        <div class="services-2 p-4 d-flex ftco-animate ">
+                            <div class="icon ">
+                                <span class="flaticon-payment-security "></span>
+                            </div>
+                            <div class="text ">
+                                <h3>Secure Payments</h3>
+                                <p class="mb-0 " style="color:black">Payments are default PCI compliant, and information is immediately encrypted when you hit purchase.</p>
+                            </div>
+                        </div>
+                        <div class="services-2 p-4 d-flex ftco-animate ">
+                            <div class="icon ">
+                                <span class="flaticon-customer-service "></span>
+                            </div>
+                            <div class="text ">
+                                <h3>Continuous Support</h3>
+                                <p class="mb-0 ">We care greatly about current/future customers, and offer live help for 18 continous hours every day.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Customer testimonies; these help a lot when potential customers are viewing the site-->
+                <div class="col-lg-7 ">
+                    <div class="heading-section ftco-animate mb-5 ">
+                        <h2 class="mb-4" style="font-family:'Belleza';letter-spacing:1px;">Customer Reviews</h2>
+                        <p>What satisfied customers have to say about Caravan Commerce.</p>
+                    </div>
+                    <div class="carousel-testimony owl-carousel ">
+                        <div class="item ">
+                            <div class="testimony-wrap ">
+                                <div class="user-img mb-4 " style="background-image: url(images/zoey.jpg) ">
+                                    <span class="quote d-flex align-items-center justify-content-center ">
+                                        <i class="icon-quote-left "></i>
+                                    </span>
+                                </div>
+                                <div class="text ">
+                                    <p class="mb-4 pl-4 line ">I couldn’t be happier with my current job. In fact, I didn’t even have a set of business formal clothes prior to my interview, but was able to rent one out, and I think it really made the difference. Thanks Caravan Commerce!
+                                    </p>
+                                    <p class="name ">Zoey Bhardwaj</p>
+                                    <span class="position ">Intern at JPMorgan Chase, Pursuing MD in Data Science at
+                                        SCU</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="testimony-wrap ">
+                                <div class="user-img mb-4 " style="background-image: url(images/grayson.jpg) ">
+                                    <span class="quote d-flex align-items-center justify-content-center ">
+                                        <i class="icon-quote-left "></i>
+                                    </span>
+                                </div>
+                                <div class="text ">
+                                    <p class="mb-4 pl-4 line ">I am ecstatic to be married to the love of my life. I got so many positive comments and questions about my tuxedo on our special day, and I’d like to give a huge thanks to Caravan Commerce; they really completed the experience!
+                                    </p>
+                                    <p class="name ">Grayson LaFrance</p>
+                                    <span class="position ">Newlywed</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="testimony-wrap ">
+                                <div class="user-img mb-4 " style="background-image: url(images/natasha.jpg) ">
+                                    <span class="quote d-flex align-items-center justify-content-center ">
+                                        <i class="icon-quote-left "></i>
+                                    </span>
+                                </div>
+                                <div class="text ">
+                                    <p class="mb-4 pl-4 line ">As a college student living paycheck to paycheck, I was able to land my dream job at Slack through a well delivered project pitch, made even better by the quality clothes I rented out from Caravan Commerce!</p>
+                                    <p class="name ">Natasha Douglas</p>
+                                    <span class="position ">UI/UX Designer at Slack</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="testimony-wrap ">
+                                <div class="user-img mb-4 " style="background-image: url(images/andrew.jpg) ">
+                                    <span class="quote d-flex align-items-center justify-content-center ">
+                                        <i class="icon-quote-left "></i>
+                                    </span>
+                                </div>
+                                <div class="text ">
+                                    <p class="mb-4 pl-4 line ">I was barely getting by, financially crippled by my student loans and various expenses. However, Caravan Commerce provided me with the apparel needed to really make a great impression on the VC that invested $$$$ in my startup,
+                                        which very recently got acquired!!</p>
+                                    <p class="name ">Andrew Huang</p>
+                                    <span class="position ">College Dropout turned Millionaire</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Website footer, contains all important information, including copyright info/notation-->
+    <footer class="ftco-footer ftco-section ">
+        <div class="container ">
+            <div class="row ">
+                <div class="mouse ">
+                    <a href="# " class="mouse-icon ">
+                        <div class="mouse-wheel "><span class="ion-ios-arrow-up "></span></div>
+                    </a>
+                </div>
+            </div>
+            <!--Name and all social media links-->
+            <div class="row mb-5 ">
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <h2 class="ftco-heading-2 ">Caravan Commerce</h2>
+                        <p>Dress for Success.</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5 ">
+                            <li class="ftco-animate "><a href="https://www.facebook.com/homestead8990/ "><span
+                                        class="icon-facebook "></span></a></li>
+                            <li class="ftco-animate "><a href="https://www.instagram.com/homesteadfbla/?hl=en "><span
+                                        class="icon-instagram "></span></a></li>
+                            <li class="ftco-animate "><a href="https://twitter.com/homesteadfbla "><span
+                                        class="icon-twitter "></span></a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Main Top -->
-
-    <!-- Start Main Top -->
-    <header class="main-header">
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
-            <div class="container">
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="dropdown megamenu-fw">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
-                            <ul class="dropdown-menu megamenu-content" role="menu">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Top</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Jackets</a></li>
-                                                    <li><a href="shop.html">Shirts</a></li>
-                                                    <li><a href="shop.html">Sweaters & Cardigans</a></li>
-                                                    <li><a href="shop.html">T-shirts</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Bottom</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Swimwear</a></li>
-                                                    <li><a href="shop.html">Skirts</a></li>
-                                                    <li><a href="shop.html">Jeans</a></li>
-                                                    <li><a href="shop.html">Trousers</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Clothing</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Top Wear</a></li>
-                                                    <li><a href="shop.html">Party wear</a></li>
-                                                    <li><a href="shop.html">Bottom Wear</a></li>
-                                                    <li><a href="shop.html">Indian Wear</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Accessories</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Bags</a></li>
-                                                    <li><a href="shop.html">Sunglasses</a></li>
-                                                    <li><a href="shop.html">Fragrances</a></li>
-                                                    <li><a href="shop.html">Wallets</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                    </div>
-                                    <!-- end row -->
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="shop-detail.html">Shop Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="service.html">Our Service</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
-                    <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu"><a href="#">
-						<i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
-					</a></li>
-                    </ul>
-                </div>
-                <!-- End Atribute Navigation -->
-            </div>
-            <!-- Start Side Menu -->
-            <div class="side">
-                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                <li class="cart-box">
-                    <ul class="cart-list">
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Delica omtantur </a></h6>
-                            <p>1x - <span class="price">$80.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Omnes ocurreret</a></h6>
-                            <p>1x - <span class="price">$60.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Agam facilisis</a></h6>
-                            <p>1x - <span class="price">$40.00</span></p>
-                        </li>
-                        <li class="total">
-                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                            <span class="float-right"><strong>Total</strong>: $180.00</span>
-                        </li>
-                    </ul>
-                </li>
-            </div>
-            <!-- End Side Menu -->
-        </nav>
-        <!-- End Navigation -->
-    </header>
-    <!-- End Main Top -->
-
-    <!-- Start Top Search -->
-    <div class="top-search">
-        <div class="container">
-            <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                <input type="text" class="form-control" placeholder="Search">
-                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-            </div>
-        </div>
-    </div>
-    <!-- End Top Search -->
-
-    <!-- Start Slider -->
-    <div id="slides-shop" class="cover-slides">
-        <ul class="slides-container">
-            <li class="text-left">
-                <img src="images/banner-01.jpg" alt="">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Thewayshop</strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
-                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                        </div>
+                <!--Important pages-->
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ml-md-5 ">
+                        <h2 class="ftco-heading-2 ">Menu</h2>
+                        <ul class="list-unstyled ">
+                            <li><a href="shop.html " class="py-2 d-block ">Store</a></li>
+                            <li><a href="about.html " class="py-2 d-block ">About</a></li>
+                            <li><a href="contact.html " class="py-2 d-block ">Contact Us</a></li>
+                        </ul>
                     </div>
                 </div>
-            </li>
-            <li class="text-center">
-                <img src="images/banner-02.jpg" alt="">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Thewayshop</strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
-                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="text-right">
-                <img src="images/banner-03.jpg" alt="">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Thewayshop</strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
-                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <div class="slides-navigation">
-            <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-            <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <!-- End Slider -->
-
-    <!-- Start Categories  -->
-    <div class="categories-shop">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/t-shirts-img.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">T-shirts</a>
-                    </div>
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/shirt-img.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Shirt</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/wallet-img.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Wallet</a>
-                    </div>
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/women-bag-img.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Bags</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/shoes-img.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Shoes</a>
-                    </div>
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/women-shoes-img.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Women Shoes</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Categories -->
-
-    <!-- Start Products  -->
-    <div class="products-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Featured Products</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="special-menu text-center">
-                        <div class="button-group filter-button-group">
-                            <button class="active" data-filter="*">All</button>
-                            <button data-filter=".top-featured">Top featured</button>
-                            <button data-filter=".best-seller">Best seller</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row special-list">
-                <div class="col-lg-3 col-md-6 special-grid best-seller">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="sale">Sale</p>
-                            </div>
-                            <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $7.79</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid top-featured">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="new">New</p>
-                            </div>
-                            <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $9.79</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid top-featured">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="sale">Sale</p>
-                            </div>
-                            <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $10.79</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid best-seller">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="sale">Sale</p>
-                            </div>
-                            <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-                                <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                </ul>
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $15.79</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Products  -->
-
-    <!-- Start Blog  -->
-    <div class="latest-blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>latest blog</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 col-xl-4">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img.jpg" alt="" />
-                        </div>
-                        <div class="blog-content">
-                            <div class="title-blog">
-                                <h3>Fusce in augue non nisi fringilla</h3>
-                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
-                            </div>
-                            <ul class="option-blog">
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Likes"><i class="far fa-heart"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Views"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Comments"><i class="far fa-comments"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-4">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img-01.jpg" alt="" />
-                        </div>
-                        <div class="blog-content">
-                            <div class="title-blog">
-                                <h3>Fusce in augue non nisi fringilla</h3>
-                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
-                            </div>
-                            <ul class="option-blog">
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Likes"><i class="far fa-heart"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Views"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Comments"><i class="far fa-comments"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-4">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img-02.jpg" alt="" />
-                        </div>
-                        <div class="blog-content">
-                            <div class="title-blog">
-                                <h3>Fusce in augue non nisi fringilla</h3>
-                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
-                            </div>
-                            <ul class="option-blog">
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Likes"><i class="far fa-heart"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Views"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Comments"><i class="far fa-comments"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Blog  -->
-
-
-    <!-- Start Instagram Feed  -->
-    <div class="instagram-box">
-        <div class="main-instagram owl-carousel owl-theme">
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-01.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-02.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-03.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-04.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-06.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-07.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-08.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-09.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Instagram Feed  -->
-
-
-    <!-- Start Footer  -->
-    <footer>
-        <div class="footer-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-widget">
-                            <h4>About ThewayShop</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
+                
+                <!--Sources of contact-->
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <h2 class="ftco-heading-2 ">Have a Question?</h2>
+                        <div class="block-23 mb-3 ">
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                                <li><span class="icon icon-map-marker "></span><span class="text ">21370 Homestead Rd,
+                                        Cupertino, CA 95014<br /></span></li>
+                                <li><a href="tel:// "><span class="icon icon-phone "></span><span class="text ">+1 800
+                                            007 8990</span></a></li>
+                                <li><a href="mailto:vptechnology@hhsfbla.com "><span
+                                            class="icon icon-envelope "></span><span
+                                            class="text ">caravancommerce@gmail.com</span></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link">
-                            <h4>Information</h4>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Our Sitemap</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link-contact">
-                            <h4>Contact Us</h4>
-                            <ul>
-                                <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 text-center ">
+
+                    <p>
+                        <!--little bit of love <3-->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> Raj Raghulan<br />Made with ❤️❤️ && ☕☕ in Cupertino, CA.
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End Footer  -->
 
-    <!-- Start copyright  -->
-    <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
-            <a href="https://html.design/">html design</a></p>
-    </div>
-    <!-- End copyright  -->
 
-    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+    <!--JavaScript library references-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-firestore.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/google-signin.js"></script>
+    <script src="js/jquery.min.js "></script>
+    <script src="js/jquery-migrate-3.0.1.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.easing.1.3.js "></script>
+    <script src="js/jquery.waypoints.min.js "></script>
+    <script src="js/jquery.stellar.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/jquery.magnific-popup.min.js "></script>
+    <script src="js/aos.js "></script>
+    <script src="js/jquery.animateNumber.min.js "></script>
+    <script src="js/bootstrap-datepicker.js "></script>
+    <script src="js/scrollax.min.js "></script>
 
-    <!-- ALL JS FILES -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/inewsticker.js"></script>
-    <script src="js/bootsnav.js."></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/baguetteBox.min.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/main.js "></script>
+    <script src="js/shopfrontpage.js "></script>
+
 </body>
 
 </html>

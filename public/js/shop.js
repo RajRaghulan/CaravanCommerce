@@ -13,7 +13,7 @@ var html = products.get().then(function (querySnapshot) {
 
             productList = [];
 
-
+            number = 0;
         }
 
         var product = getProduct(doc);
@@ -67,8 +67,8 @@ function createProductHTML(productList) {
     var productHTML = "";
     for (var i = 0; i < productList.length; i++) {
         var product = productList[i];
-        productHTML += '<div class="product flex-column col-sm-12 col-md-12 col-lg-4 ftco-animate d-flex"> <div> <a href="shopaccessories.html" class="img-prod"> <img class="img-fluid" id="img5" /> <div class="overlay"></div> </a> <div class="text py-3 pb-4 px-3"> <div class="d-flex"> <div class="cat"> <span>Skirts</span> </div> <div class="rating"> <p class="text-right mb-0"> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star"></span></t> </p> </div> </div> <h3> <a href="#"> <p id="title5"></p> </a> </h3> <div class="pricing"> <p class="price"> $ <t id="price5"></t> </p> </div> <p class="bottom-area d-flex px-3"> <a href="#" id="six" class=" add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a> </p> </div> </div> </div>';
 
+        productHTML += '<div class="col-sm-12 col-md-12 col-lg-4 d-flex"> <div class="product d-flex flex-column"> <a href="shopblazers.html" class="img-prod"> <img class="img-fluid" id="img3" src="' + product.image + '" /> </a> <div class="text py-3 pb-4 px-3"> <div class="d-flex"> <div class="cat"> <span>' + product.type + '</span> </div> <div class="rating"> <p class="text-right mb-0"> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star"></span></t> <t><span class="ion-ios-star-half"></span></t> </p> </div> </div> <h3> <a href="#"> <p id="title3">' + product.title + '</p> </a> </h3> <div class="pricing"> <p class="price"> $ <t id="price3">' + product.price + '</t> </p> </div> <p class="bottom-area d-flex px-3"> <a href="#" id="four" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a> </p> </div> </div> </div>'
     }
     return productHTML;
 }

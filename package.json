@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RajRaghulan/CaravanCommerce#readme",
   "dependencies": {
-    "firebase": "^8.2.9"
+    "firebase": "^8.2.9",
+    "handlebars": "^4.7.7"
   }
 }

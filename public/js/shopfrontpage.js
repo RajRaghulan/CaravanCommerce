@@ -20,10 +20,10 @@ if (document.readyState == "loading") {
 function ready() {
   //creates the shop with the products from products.json
   fetch("products.json")
-    .then(function(resp) {
+    .then(function (resp) {
       return resp.json();
     })
-    .then(function(data) {
+    .then(function (data) {
       let clothes = [];
 
       function setOne(event) {

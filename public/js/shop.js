@@ -1,6 +1,11 @@
 
 var db = firebase.firestore();
 var products = db.collection("Stores").doc("BeyondActive").collection("products");
+products = products.where("Status", "==", "active");
+
+var number = 0;
+var number = 0;
+var number = 0;;
 var number = 0;
 var productList = [];
 var html = products.get().then(function (querySnapshot) {
@@ -16,10 +21,24 @@ var html = products.get().then(function (querySnapshot) {
 
             number = 0;
         }
+        else {
+            var data = doc.data();
+            // if (
+            //     data.hasOwnProperty('Title') && typeof (data["Title"]) != "undefined" && data["Title"].trim().length > 0 &&
+            //     data.hasOwnProperty('Type') && typeof (data["Type"]) != "undefined" && data["Type"].trim().length > 0 &&
+            //     data.hasOwnProperty('Cost per item') && typeof (data["Cost per item"]) != "undefined" && data["Cost per item"] > 0) {
 
-        var product = getProduct(doc);
-        productList[number] = product;
-        number++;
+
+            var product = getProduct(doc);
+            console.log("hi")
+
+            productList[number] = product;
+            number++;
+
+            // }
+
+
+        }
 
 
     });
@@ -38,30 +57,31 @@ var html = products.get().then(function (querySnapshot) {
 function getProduct(doc) {
     var data = doc.data();
 
-    if (data.hasOwnProperty('Image Src')) {
-        var imageData = data["Image Src"];
-        var titleData = "";
-        if (data.hasOwnProperty("Title")) {
-            titleData = data["Title"];
-        }
-
-        var typeData = "";
-        if (data.hasOwnProperty("Type")) {
-            typeData = data["Type"];
-        }
-
-        var priceData = "";
-        if (data.hasOwnProperty("Cost per item")) {
-            priceData = data["Cost per item"];
-        }
-        var product = new Object();
-        product["image"] = imageData;
-        product["title"] = titleData;
-        product["type"] = typeData;
-        product["price"] = priceData;
-        return product;
-
+    var imageData = data["Image Src"];
+    var titleData = "";
+    if (data.hasOwnProperty("Title")) {
+        titleData = data["Title"];
     }
+
+    var typeData = "";
+    if (data.hasOwnProperty("Type")) {
+        typeData = data["Type"];
+    }
+
+    var priceData = "";
+    if (data.hasOwnProperty("Cost per item")) {
+        priceData = data["Cost per item"];
+    }
+    var product = new Object();
+    product["image"] = imageData;
+    product["title"] = titleData;
+    product["type"] = typeData;
+    product["price"] = priceData;
+    return product;
+
+
+
+
 }
 
 function createProductHTML(productList) {

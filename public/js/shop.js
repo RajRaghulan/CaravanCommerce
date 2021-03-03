@@ -1,7 +1,7 @@
 
 var db = firebase.firestore();
 var products = db.collection("Stores").doc("BeyondActive").collection("products");
-products = products.where("Status", "==", "active");
+products = products.where("Status", "==", "active").where("Image Src", "!=","");
 
 var number = 0;
 var number = 0;
@@ -13,31 +13,14 @@ var html = products.get().then(function (querySnapshot) {
 
     querySnapshot.forEach(function (doc) {
         if (number == 3) {
-
             add += createProductHTML(productList);
-
-
             productList = [];
-
             number = 0;
         }
         else {
-            var data = doc.data();
-            // if (
-            //     data.hasOwnProperty('Title') && typeof (data["Title"]) != "undefined" && data["Title"].trim().length > 0 &&
-            //     data.hasOwnProperty('Type') && typeof (data["Type"]) != "undefined" && data["Type"].trim().length > 0 &&
-            //     data.hasOwnProperty('Cost per item') && typeof (data["Cost per item"]) != "undefined" && data["Cost per item"] > 0) {
-
-
             var product = getProduct(doc);
-            console.log("hi")
-
             productList[number] = product;
             number++;
-
-            // }
-
-
         }
 
 
@@ -48,11 +31,6 @@ var html = products.get().then(function (querySnapshot) {
 
     generateHTML(add);
 });
-
-
-
-
-
 
 function getProduct(doc) {
     var data = doc.data();
@@ -79,9 +57,6 @@ function getProduct(doc) {
     product["price"] = priceData;
     return product;
 
-
-
-
 }
 
 function createProductHTML(productList) {
@@ -95,7 +70,5 @@ function createProductHTML(productList) {
 }
 
 function generateHTML(productHTML) {
-    console.log(productHTML)
-    // document.getElementById("productList").innerHTML = final;
     $("#productList").append(productHTML);
 };

@@ -1,7 +1,18 @@
 {
   "indexes": [
     {
-      
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Image Src`",
+          "order": "ASCENDING"
+        }
+      ]
     }
   ],
   "fieldOverrides": []

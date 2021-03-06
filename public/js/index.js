@@ -1,3 +1,4 @@
+
 var firebaseConfig = {
     apiKey: "AIzaSyDss7Fwh_9AEW-C-H4yoaEZ3VDOloFLxZ8",
     authDomain: "caravan-commerce.firebaseapp.com",

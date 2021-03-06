@@ -1,27 +1,29 @@
 
 var db = firebase.firestore();
-var products = db.collection("Stores").doc("BeyondActive").collection("products");
-products = products.where("Status", "==", "active").where("Image Src", "!=","");
+var products = db.collection("Stores").doc("BeyondActive").collection("products").where("Status", "==", "active").where("Image Src", "!=", "");;
 
 var number = 0;
-var number = 0;
-var number = 0;;
-var number = 0;
 var productList = [];
-var html = products.get().then(function (querySnapshot) {
+products.get().then(function (querySnapshot) {
     var add = "";
 
     querySnapshot.forEach(function (doc) {
+
         if (number == 3) {
             add += createProductHTML(productList);
             productList = [];
             number = 0;
         }
         else {
+
             var product = getProduct(doc);
             productList[number] = product;
             number++;
         }
+
+
+
+
 
 
     });
@@ -50,6 +52,7 @@ function getProduct(doc) {
     if (data.hasOwnProperty("Cost per item")) {
         priceData = data["Cost per item"];
     }
+
     var product = new Object();
     product["image"] = imageData;
     product["title"] = titleData;

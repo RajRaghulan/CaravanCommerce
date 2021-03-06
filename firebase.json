@@ -5,6 +5,7 @@
   },
   "hosting": {
     "public": "public",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -12,8 +13,28 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "/",
         "destination": "/index.html"
+      },
+      {
+        "source": "/about",
+        "destination": "/about.html"
+      },
+      {
+        "source": "/contact",
+        "destination": "/contact.html"
+      },
+      {
+        "source": "/cart",
+        "destination": "/cart.html"
+      },
+      {
+        "source": "/checkout",
+        "destination": "/checkout.html"
+      },
+      {
+        "source": "/shop",
+        "destination": "/shop.html"
       }
     ]
   }
